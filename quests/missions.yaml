@@ -1,0 +1,86 @@
+main_quest: ""
+missions:
+    - id: kubernetes_internals
+      title: 'Mission I: Kubernetes Internals'
+      total_xp: 1000
+      xp: 0
+      completed: false
+      objectives:
+        - title: Understand Kubernetes control plane components
+          completed: false
+        - title: Setup a kubeadm cluster manually
+          completed: false
+        - title: Explore node lifecycle and taints/tolerations
+          completed: false
+    - id: observability
+      title: 'Mission II: Observability'
+      total_xp: 800
+      xp: 0
+      completed: false
+      objectives:
+        - title: Install and configure Prometheus
+          completed: false
+        - title: Visualize metrics with Grafana
+          completed: false
+        - title: Log aggregation with Loki
+          completed: false
+    - id: service_mesh
+      title: 'Mission III: Service Mesh'
+      total_xp: 700
+      xp: 0
+      completed: false
+      objectives:
+        - title: Install Istio in your cluster
+          completed: false
+        - title: Enable traffic shifting
+          completed: false
+        - title: Secure services with mTLS
+          completed: false
+    - id: helm_kustomize
+      title: 'Mission IV: Helm & Kustomize'
+      total_xp: 600
+      xp: 0
+      completed: false
+      objectives:
+        - title: Create a basic Helm chart
+          completed: false
+        - title: Use Helm values for customization
+          completed: false
+        - title: Apply overlays with Kustomize
+          completed: false
+    - id: cloud_infra
+      title: 'Mission V: Cloud Infra Provisioning'
+      total_xp: 900
+      xp: 0
+      completed: false
+      objectives:
+        - title: Learn Terraform basics
+          completed: false
+        - title: Provision Kubernetes cluster with Terraform
+          completed: false
+        - title: Use modules and remote backend
+          completed: false
+    - id: security_policy
+      title: 'Mission VI: Security & Policy'
+      total_xp: 700
+      xp: 0
+      completed: false
+      objectives:
+        - title: Implement PodSecurity and RBAC
+          completed: false
+        - title: Use OPA/Gatekeeper for policies
+          completed: false
+        - title: Sign and verify container images
+          completed: false
+    - id: storage
+      title: 'Mission VII: Storage & Stateful Workloads'
+      total_xp: 750
+      xp: 0
+      completed: false
+      objectives:
+        - title: Understand Persistent Volumes and CSI
+          completed: false
+        - title: Deploy Redis/Postgres with persistence
+          completed: false
+        - title: Try Rook/Ceph or Longhorn
+          completed: false
